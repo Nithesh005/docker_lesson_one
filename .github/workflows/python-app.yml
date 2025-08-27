@@ -5,7 +5,7 @@ on:
     branches: [ main , dev]
 
 jobs:
-  test:
+  test_app:
     runs-on: ubuntu-latest
 
     steps:
