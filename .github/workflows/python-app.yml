@@ -25,4 +25,4 @@ jobs:
 
       - name: Run tests with pytest
         run: |
-          pytest tests
+          PYTHONPATH=. pytest --maxfail=1 --disable-warnings --tb=short

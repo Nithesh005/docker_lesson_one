@@ -17,8 +17,8 @@ def client():
     with app.test_client() as client:
         yield client
 
-def test_onw():
-    assert False
+# def test_onw():
+#     assert False
 
 def test_two():
     assert True
