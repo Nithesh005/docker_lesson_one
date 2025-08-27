@@ -3,6 +3,9 @@ import pytest
 import sys
 import os
 
+# PYTHONPATH=. pytest --maxfail=1 --disable-warnings --tb=short
+
+
 # Add the parent directory (root) to the import path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 

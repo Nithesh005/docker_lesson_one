@@ -25,5 +25,6 @@ jobs:
 
       - name: Run tests with pytest
         run: |
+          python -m venv venv
           echo "helo hey"
-          PYTHONPATH=. pytest --maxfail=1 --disable-warnings --tb=short
+          pytest tests
