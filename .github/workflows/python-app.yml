@@ -2,9 +2,7 @@ name: Run Pytest on Push
 
 on:
   push:
-    branches: [ main ]
-  push:
-    branches: [ dev ]
+    branches: [ main , dev]
 
 jobs:
   test:
