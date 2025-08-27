@@ -17,9 +17,12 @@ def client():
     with app.test_client() as client:
         yield client
 
-# def test_onw():
-#     assert False
 
 def test_two():
-    assert True
     assert 3==3
+
+def test_onw():
+    assert False
+
+def test_three():
+    assert True
