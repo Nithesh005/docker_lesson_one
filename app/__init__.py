@@ -6,6 +6,6 @@ def create_app():
 
     @app.route('/')
     def home():
-        return "Hello, Docker + Flask!", 200
+        return "Hello, Docker + Flask! ok", 200
     
     return app
