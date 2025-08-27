@@ -3,8 +3,8 @@ name: Run Pytest on Push
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  push:
+    branches: [ dev ]
 
 jobs:
   test:
